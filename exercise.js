@@ -130,3 +130,54 @@ const newClothes = clothes.map((item) => {
 });
 
 console.table(newClothes);
+
+// Use filter
+
+const carCollection = [
+  {
+    name: "Mercedes Benz",
+    topSpeed: 330,
+  },
+  {
+    name: "Mazda",
+    topSpeed: 240,
+  },
+  {
+    name: "Ford",
+    topSpeed: 280,
+  },
+  {
+    name: "BMW",
+    topSpeed: 320,
+  },
+  {
+    name: "Toyota",
+    topSpeed: 290,
+  },
+  {
+    name: "Ferarri",
+    topSpeed: 380,
+  },
+  {
+    name: "Nissan",
+    topSpeed: 250,
+  },
+  {
+    name: "Volkswagen",
+    topSpeed: 270,
+  },
+  {
+    name: "Volvo",
+    topSpeed: 300,
+  },
+  {
+    name: "Suzuki",
+    topSpeed: 220,
+  },
+];
+
+const speedyCars = carCollection
+  .filter((car) => car.topSpeed > 300)
+  .sort((a, b) => b.topSpeed - a.topSpeed);
+
+console.table(speedyCars);
