@@ -103,7 +103,11 @@ const musicWorks = [
   },
 ];
 
-console.table(musicWorks);
+const newMusicWorks = musicWorks.sort((a, b) =>
+  a.instrument > b.instrument ? 1 : -1
+);
+
+console.table(newMusicWorks);
 
 // Round numbers by removing the decimals
 
