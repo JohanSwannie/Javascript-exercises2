@@ -156,7 +156,7 @@ const carCollection = [
   },
   {
     name: "Toyota",
-    topSpeed: 290,
+    topSpeed: 295,
   },
   {
     name: "Ferarri",
