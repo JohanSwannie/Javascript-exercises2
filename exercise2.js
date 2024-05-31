@@ -14,8 +14,22 @@ class Algebra {
       this.a + this.b + this.c + this.d + this.e + this.f + this.g + this.h
     }`;
   }
+
+  set otherValues(value) {
+    const rValue = [19, 27, 7, 80, 57, 22];
+    this.a = value;
+    this.b = rValue[Math.floor(Math.random() * 6)];
+  }
+
+  get getNewSum() {
+    return `The new values of a and b added together is now ${this.a + this.b}`;
+  }
 }
 
 let sum1 = new Algebra(871, 934, 93, 118, 811, 457, 10, 200);
 
 console.log(sum1.getTheSum());
+
+sum1.otherValues = 100;
+
+console.log(sum1.getNewSum);
