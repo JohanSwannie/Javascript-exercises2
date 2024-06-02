@@ -1,3 +1,5 @@
+// Classes - Creating an instance of the object as well as using get & set
+
 class Algebra {
   constructor(_a, _b, _c, _d, _e, _f, _g, _h) {
     (this.a = _a),
