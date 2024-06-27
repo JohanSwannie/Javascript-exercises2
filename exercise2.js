@@ -18,7 +18,7 @@ class Algebra {
   }
 
   set otherValues(value) {
-    const rValue = [19, 27, 7, 80, 57, 22, 91, 14, 108, 77, 19, 33];
+    const rValue = [11, 27, 7, 80, 57, 22, 91, 14, 108, 77, 19, 33];
     this.a = value;
     this.b = rValue[Math.floor(Math.random() * 12)];
   }
