@@ -26,6 +26,6 @@ for (var value in sum) {
   }
 }
 
-console.log(Algebra2.test1(9, 5, 3, 10));
+console.log(Algebra2.test1(19, 5, 3, 10));
 
 console.log(Algebra2.test2(1, 9, 5, 7));
