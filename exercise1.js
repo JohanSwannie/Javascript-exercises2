@@ -50,7 +50,7 @@ const stock = [
   },
   {
     productName: "hats",
-    price: 7.5,
+    price: 7.55,
     amount: 45,
   },
 ];
