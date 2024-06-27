@@ -18,7 +18,7 @@ class Algebra2 {
   }
 }
 
-let sum = new Algebra2(21, 13, 7, 33);
+let sum = new Algebra2(21, 13, 3, 24, 8, 26);
 
 for (var value in sum) {
   if (sum.hasOwnProperty(value)) {
@@ -26,6 +26,6 @@ for (var value in sum) {
   }
 }
 
-console.log(Algebra2.test1(19, 5, 3, 10));
+console.log(Algebra2.test1(19, 5, 3, 10, 17, 12));
 
-console.log(Algebra2.test2(1, 9, 5, 7));
+console.log(Algebra2.test2(1, 9, 5, 7, 6, 16));
