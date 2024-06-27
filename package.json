@@ -10,7 +10,7 @@
     "dev3": "nodemon exercise3.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Johan Swan",
   "license": "ISC",
   "dependencies": {
     "nodemon": "^3.1.0"
